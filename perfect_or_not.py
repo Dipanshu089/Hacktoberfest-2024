@@ -9,7 +9,7 @@ def is_perfect_number(n):
         if n % i == 0:
             divisors_sum += i
     
-    # Check if sum of divisors equals the number itself
+    # Check if sum of divisors equals the number itself 
     return divisors_sum == n
 
 # Example usage:
