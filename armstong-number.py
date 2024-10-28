@@ -9,6 +9,6 @@ for i in range(num_len):
     sum+= d**(num_len)           # all digits raised to the power of number of digits are added together
     num1 = num1 // 10 
 if sum == temp :
-    print("the number is armstrong ")
+    print(f"{num1} is armstrong number")
 else:
-    print("the number is not armstrong")
+    print(f"{num1} is not a armstrong number")
